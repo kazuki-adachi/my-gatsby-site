@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/k-adachi/.nodenv/versions/12.18.0/bin/node /Users/k-adachi/.nodenv/versions/12.18.0/bin/yarn init
+
+PATH: 
+  /Users/k-adachi/.nodenv/versions/12.18.0/bin:/opt/homebrew/Cellar/nodenv/1.4.0/libexec:/Users/k-adachi/.nodenv/plugins/node-build/bin:/Users/k-adachi/.nodenv/plugins/node-build-update-defs/bin:/Users/k-adachi/.pyenv/shims:/Users/k-adachi/.pyenv/bin:/Users/k-adachi/.pyenv/bin:/Users/k-adachi/.nodenv/shims:/Users/k-adachi/.nodebrew/current/bin:/Library/Frameworks/Python.framework/Versions/2.7/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/k-adachi/.pyenv/bin:/Users/k-adachi/.nodenv/shims:/Users/k-adachi/.nodenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  12.18.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/k-adachi/.nodenv/versions/12.18.0/lib/node_modules/yarn/lib/cli.js:137150:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:866:16)
+      at ReadStream.onkeypress (readline.js:205:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:335:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1133:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (_stream_readable.js:295:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

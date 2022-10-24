@@ -132,6 +132,12 @@ const IndexPage = () => {
     </main>
   )
 }
+exports.handler = async (event, context) => {
+  return {
+    statusCode: 200,
+    body: "Hello, World"
+  }
+}
 
 export default IndexPage
 
