@@ -129,9 +129,6 @@ const IndexPage = () => {
       <h1 style={headingStyles}>
         Hello World!!!
       </h1>
-      <h1 style={headingStyles}>
-        現在の時刻はxxxです。
-      </h1>
     </main>
   )
 }
